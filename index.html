@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Museo Interactivo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <section class=" py-6 text-sm-center text-md-center text-lg-center text-xl-center">
+      <h1 class="display-5">Museo de Feid</h1>
+      <img id="Feid-image" src="https://cdns-images.dzcdn.net/images/artist/d3c0b6e0ac02c2f74203b2d5c5507240/500x500.jpg" alt="feid">
+      <p class="py-3">En este museo virtual, se muestran las piezas más representativas de Salomón Villada Hoyos más conocido por su nombre artístico como Feid. Nacido el 19 de agosto de 1992, Feid es un cantante y compositor colombiano. 
+        En su infancia, aprendió a tocar el clarinete, que luego abandonó después de que decidió que quería comenzar a cantar. Hizo parte del coro de su colegio y tomó clases de canto en la universidad. Cantó en fiestas universitarias, fiestas de cumpleaños y reuniones. A pesar de que es un artista de reggaeton, tiene influencias del hip hop y el R & B, y sigue a artistas como Drake y Chris Brown. Se convirtió en un artista de reguetón porque desde muy niño sentía afinidad por la música urbana.
+      </p>
+    </section> 
+      <section class="Title text-lg-center text-xl-center text-md-center text-sm-center">
+        <h2 class="display-8">Sus piezas más características son:</h2>
+    </section>
+    <section class="box1">
+      <section class="Piece1">
+        <h3>Normal</h3>
+        <a href="https://www.youtube.com/watch?v=oD5f55ohsc4">
+          <img src="https://images.genius.com/3c9af42660323c238624f2a2276937a5.1000x1000x1.png" alt="Normal">
+        </a>
+        <button onclick="myFunction()">Dar Click</button>
+        <div>
+          <p id="normal"></p>
+        </div>
+        <script>
+          function myFunction() {
+            document.getElementById("normal").innerHTML = "En “Normal”, FERXXO deja entrever sus sentimientos hacia una mujer que, a pesar de querer olvidar y de que la relación no era recíproca, sigue queriendo y extrañando con mucha fuerza. A pesar de esto, el colombiano pone más énfasis en los sentimientos de la mujer, quien también lo extraña y anhela volver a tener una relación con él, pero sigue viéndose con otros hombres en un intento de recordarlo y a la vez olvidarlo.";
+          }
+          </script>
+      </section>
+      <section class="Piece2">
+        <h3>Ferxxo 100</h3>
+        <a href="https://www.youtube.com/watch?v=qIOYw9Yx0N8">
+          <img src="https://i1.sndcdn.com/artworks-dLvsFLi5t2pt-0-t500x500.jpg" alt="Ferxxo 100">
+        </a>
+        <p>Pasa el mouse sobre el recuadro</p>
+        <div>
+          <p id="Ferxxo"onmouseover="mouseOver()" onmouseout="mouseOut()">Ferxxo 100 es un tema donde con la nostalgia como bandera, se plasma en una letra que te hace pensar de verdad, y a la que más de uno le hará pensar en los amores que ha perdido. Feid ha conseguido consagrarse como una de las figuras mas reconocidas de la música urbana en los últimos años. Y es que ahora nos ha sorprendido con el estreno de otro auténtico temazo, ‘Ferxxo 100’, que desde su estreno, ocupa las primeras posiciones del top de las listas musicales de música urbana.</p>
+        </div>
+        <script>
+          function mouseOver() {
+            document.getElementById("Ferxxo").style.color = "black";
+          }
+          
+          function mouseOut() {
+            document.getElementById("Ferxxo").style.color = "white";
+          }
+          </script>
+      </section>
+    </section>
+    <section class="box2">
+      <section class="Piece3">
+        <h3>Si te la encuentras por ahí</h3>
+        <a href="https://www.youtube.com/watch?v=0xz5wdKFjM4">
+          <img src="https://lyricsfa.com/wp-content/uploads/2022/08/Feid-Si-Te-La-Encuentras-Por-Ahi%CC%81-Lyrics.jpg" alt="Si te la encuentras por ahi">
+        </a>
+        <p ondblclick="myFunction()">Haz doble click en esta oración</p>
+        <div>
+          <p id="song3"></p>
+        </div>
+        <script>
+          function myFunction() {
+            document.getElementById("song3").innerHTML = "Feid lanza su nuevo sencillo, ‘Si te la encuentras por ahi’, la quinta canción que estrena en lo que va del 2022. La canción es un himno para los melancólicos que han perdido un amor que no pueden olvidar. El tema es producido por Jowan y Sky y el video por Sebastian Sanchez y mantiene el estilo único de Feid, que ha cautivado a una audiencia internacional con fuerza viral";
+          }
+          </script>
+      </section>
+      <section class="Piece4">
+        <h3>Mojando asientos (feat. Maluma)</h3>
+        <a href="https://www.youtube.com/watch?v=8rODvcIcOF4">
+          <img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" src="https://images.genius.com/2decbd8f0d25bdef6a007c2156a2dd8e.1000x1000x1.png" alt="Mojando asientos">
+        </a>
+        <p>Pasa el mouse sobre la imagen</p>
+        <div>
+          <p>Como no podía ser de otro modo, un potente ritmo de reggaetón acompaña una letra de deseo, lujuria y travesura. El clip, filmado en su Medellín natal, arranca con una cuidada toma en blanco y negro, que evoluciona al color cuando se acerca el primer estribillo. En las imágenes destacan los coches de época, llamativas vestimentas y bailes protagonizados por ambos cantantes, así como una mujer que se torna en protagonista de la canción.</p>
+        </div>
+        
+        <script>
+          function bigImg(x) {
+            x.style.height = "64px";
+            x.style.width = "64px";
+          }
+          
+          function normalImg(x) {
+            x.style.height = "600px";
+            x.style.width = "600px";
+          }
+          </script>
+      </section>
+    </section>
+    <section class="box3">
+      <section class="Piece5">
+        <h3>Castigo</h3>
+        <a href="https://www.youtube.com/watch?v=AOamtC2_r7k">
+          <img src="https://images.genius.com/d76fc71ce4117f1efb1873d7ca873a25.1000x1000x1.png" alt="Castigo">
+        </a>
+        <div>
+          <p>El mensaje que transmite “Castigo” es que a muchas mujeres les gusta salir de fiesta con sus amigas sin ningún interés de que alguien más las invite y prefieren bailar y gozar entre ellas sin la presencia de hombres que interfieran en su celebración.</p>
+        </div>
+        
+     </section>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+  <script src="/index.js"></script>
+</html>

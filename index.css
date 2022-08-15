@@ -1,0 +1,70 @@
+#Feid-image {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.box1{
+    display: flex;
+}
+.box1 .Piece1 {
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+}
+.box1 .Piece1 img {
+    transform: rotate(-1deg);
+    width: 95%;
+    margin-top: 10px;
+} 
+.box1 .Piece2 {
+    width: 50%;
+    margin-right: 20px;
+    font-size: 22px;
+}   
+.box1 .Piece2 img {
+    transform: rotate(-1deg);
+    width: 95%;
+    margin-top: 10px;
+}    
+.box2{
+    display: flex;
+}
+.box2 .Piece3 {
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+}
+.box2 .Piece3 img {
+    transform: rotate(-1deg);
+    width: 95%;
+    margin-top: 10px;
+} 
+.box2 .Piece4 {
+    width: 50%;
+    margin-right: 20px;
+    font-size: 22px;
+}   
+.box2 .Piece4 img {
+    transform: rotate(-1deg);
+    width: 95%;
+    margin-top: 10px;
+}   
+.box3{
+    display: flex;
+}
+.box3 .Piece5 {
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+}
+.box3 .Piece5 img {
+    transform: rotate(-1deg);
+    width: 95%;
+    margin-top: 10px;
+}
+    
